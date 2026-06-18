@@ -1,0 +1,24 @@
+{
+  "name": "app-recife-backend",
+  "version": "1.0.0",
+  "description": "API backend do AppRecife: persiste o relacionamento entre a localizacao do usuario e os medicamentos consultados no Portal de Dados Abertos do Recife.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "recife",
+    "dados-abertos",
+    "medicamentos",
+    "express",
+    "api"
+  ],
+  "author": "Israel Pessoa",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
